@@ -1,0 +1,248 @@
+/*---CUSTOM FONTS---*/
+.body-title {
+    font-family: 'geomanist-black';
+    color: #490d67;
+    font-size: 34pt;
+    line-height: 90%;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.body-content {
+    font-family: 'geomanist-regular';
+    color: #645d67;
+}
+
+.cs-title {
+    font-family: 'geomanist-black';
+}
+
+.section-header {
+    font-family: 'geomanist-bold';
+}
+
+.footer-box .widget_text .h4 {
+    font-family: 'geomanist-medium';
+}
+
+.textwidget {
+    font-family: 'geomanist-extralight';
+}
+
+#pre-footer .p {
+    font-size: 11pt;
+}
+
+#media_image-3 {
+    text-align: center;
+}
+/*---END---*/
+
+/*---SLIDER BUTTONS + ARROWS---*/
+/*---BUTTONS---*/
+.nivo-controlNav a {
+    border: 2px solid #490d67;
+    background: #490d67
+}
+
+.nivo-controlNav a.active {
+    border: 2px solid #490d67
+}
+/*---ARROWS---*/
+.cs-arrows {
+    color: #ffffff;
+    background-color: #ffffff00;
+}
+
+.cs-arrows:hover {
+    color: #ffffff;
+    background-color: #490d6770;
+}
+
+.controlArrow.prev, .controlArrow.next {
+    background-color: #490d6750;
+}
+
+.controlArrow.prev:hover, .controlArrow.next:hover {
+    background-color: #490d67;
+}
+/*---FADE SLIDER CONTROLS---*/
+.nivo-controlNav {
+    transform: rotatez(90deg);
+    left: 45%;
+    bottom: 50%;
+}
+/*---END---*/
+
+/*---CUSTOM CLASSES---*/
+.parent {
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.col-centered {
+    display: inline-block;
+    margin: 2% auto;
+    width: 45%;
+    height: 410px;
+    position: relative;
+}
+/*---END---*/
+
+/*---HOME---*/
+.page-id-20 #section-1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.page-id-20 #content-container .section-boxed {
+    margin: 0px auto;
+}
+
+.page-id-20 .section-boxed {
+    max-width: 100% !important;
+}
+
+.page-id-20 .product-button {
+    font-family: 'geomanist-medium';
+    font-size: 10pt;
+    border: 1px solid;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: #645d67;
+    color: #645d67;
+    background-color: #ffffff00;
+    width: 145px;
+    height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+
+.page-id-20 .recipe-button {
+    font-family: 'geomanist-medium';
+    font-size: 10pt;
+    border: 1px solid;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: #645d67;
+    color: #645d67;
+    background-color: #ffffff00;
+    width: 145px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.home-buttons {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+/*---HOME-SLIDER---*/
+.page-id-20 .content-slider {
+    padding-top: 180px;
+}
+
+.page-id-20 #cs-slider-ul .button {
+    border: 2px solid;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'geomanist-bold';
+}
+
+.page-id-20 #slider-content-5 .button {
+    border: 2px solid;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'geomanist-bold';
+}
+/*---END---*/
+
+/*---STORY---*/
+.page-id-8 #section-1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-top: 30px !important;
+    margin-bottom: 0px !important;
+}
+
+.page-id-8 #content-container .section-boxed {
+    margin: 0px auto;
+}
+
+.page-id-8 .section-boxed {
+    max-width: 100% !important;
+}
+/*---STORY-SLIDER---*/
+.page-id-8 #content-slider-8 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.page-id-8 .cs-content-left, .cs-content-right, .cs-content-centered {
+    margin-top: 10%;
+}
+/*---END---*/
+
+/*---DISTRIB---*/
+/*---DISTRIB-SLIDER---*/
+.page-id-13 #content-slider-13 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.page-id-13 .cs-content-left, .cs-content-right, .cs-content-centered {
+    margin-top: 10%;
+}
+/*---END---*/
+
+/*---RESPONSIVIDADE---*/
+@media screen and (max-width: 1000px) {
+    #grey-bg {
+        height: 800px !important;
+        top: 800px !important;
+    }
+    #images {
+        height: 400px;
+        margin-top: 10px !important;
+    }
+    #footer .col {
+        padding-top: 20%;
+    }
+    #part-1 .cols-wrapper {
+        margin: 9% !important;
+    }
+    .parent {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#sfwa_footer, #sfwa_footer * {
+    box-sizing: none;
+}
+
+.footer-bottom {
+    display: none;
+}
+
+#lsi_widget-7 {
+    margin-top: 35%;
+}
+
+#media_image-5 {
+    text-align: center;
+    margin-top: 25%;
+}
+/*---END RESPONSIVIDADE---*/
