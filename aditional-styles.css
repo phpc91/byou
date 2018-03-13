@@ -1,4 +1,5 @@
 /*---CUSTOM FONTS---*/
+
 .body-title {
     font-family: 'geomanist-black';
     color: #490d67;
@@ -36,10 +37,13 @@
 #media_image-3 {
     text-align: center;
 }
+
 /*---END---*/
 
 /*---SLIDER BUTTONS + ARROWS---*/
+
 /*---BUTTONS---*/
+
 .nivo-controlNav a {
     border: 2px solid #490d67;
     background: #490d67
@@ -48,7 +52,9 @@
 .nivo-controlNav a.active {
     border: 2px solid #490d67
 }
+
 /*---ARROWS---*/
+
 .cs-arrows {
     color: #ffffff;
     background-color: #ffffff00;
@@ -66,15 +72,19 @@
 .controlArrow.prev:hover, .controlArrow.next:hover {
     background-color: #490d67;
 }
+
 /*---FADE SLIDER CONTROLS---*/
+
 .nivo-controlNav {
     transform: rotatez(90deg);
     left: 45%;
     bottom: 50%;
 }
+
 /*---END---*/
 
 /*---CUSTOM CLASSES---*/
+
 .parent {
     text-align: center;
     margin-left: 9%;
@@ -88,9 +98,11 @@
     height: 410px;
     position: relative;
 }
+
 /*---END---*/
 
 /*---HOME---*/
+
 .page-id-20 #section-1 {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -145,6 +157,7 @@
 }
 
 /*---HOME-SLIDER---*/
+
 .page-id-20 .content-slider {
     padding-top: 180px;
 }
@@ -167,9 +180,54 @@
     padding-bottom: 10px;
     font-family: 'geomanist-bold';
 }
+
+#part2-wrapper {
+    margin-left: 9%;
+    margin-right: 9%;
+    min-height: 815px;
+}
+
+#part2-text {
+    width: 19.8%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+#part2-pictures {
+    width: 75%;
+    height: auto;
+    margin-top: 2.6%;
+}
+
+#video-button {
+    margin-top: 20%;
+}
+
+#part3-wrapper {
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 900px;
+}
+
+#part3-pictures {
+    width: 52.6%;
+    height: 20%;
+    margin-top: 4%;
+}
+
+#part3-text {
+    width: 19%;
+    margin-left: 15%;
+}
+
+#button3 {
+    margin-top: 30%;
+}
+
 /*---END---*/
 
 /*---STORY---*/
+
 .page-id-8 #section-1 {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -184,7 +242,9 @@
 .page-id-8 .section-boxed {
     max-width: 100% !important;
 }
+
 /*---STORY-SLIDER---*/
+
 .page-id-8 #content-slider-8 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -193,10 +253,13 @@
 .page-id-8 .cs-content-left, .cs-content-right, .cs-content-centered {
     margin-top: 10%;
 }
+
 /*---END---*/
 
 /*---DISTRIB---*/
+
 /*---DISTRIB-SLIDER---*/
+
 .page-id-13 #content-slider-13 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -205,10 +268,34 @@
 .page-id-13 .cs-content-left, .cs-content-right, .cs-content-centered {
     margin-top: 10%;
 }
+
 /*---END---*/
 
 /*---RESPONSIVIDADE---*/
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 520px) {
+    #part2-pictures {
+        width: auto;
+        margin-top: 3%;
+        margin-left: 18% !important;
+        height: 220px;
+    }
+    #video-button {
+        margin-top: 7%;
+    }
+    #part3-pictures {
+        margin-left: 18% !important;
+    }
+    #text3 {
+        margin-bottom: 18%;
+    }
+    #button3 {
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 1023px) {
     #grey-bg {
         height: 800px !important;
         top: 800px !important;
@@ -226,6 +313,31 @@
     .parent {
         margin-left: auto;
         margin-right: auto;
+    }
+    #video-button {
+        margin-top: 18%;
+    }
+    #part2-wrapper, #part3-wrapper {
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+        height: auto;
+    }
+    #part2-text {
+        width: 28.5%;
+    }
+    #part2-pictures {
+        width: auto;
+        margin-top: 32%;
+    }
+    #part3-text {
+        width: 38%;
+        margin-left: 4% !important;
+    }
+    #part3-pictures {
+        margin-top: 17%;
+    }
+    #button3 {
+        margin-top: 7%;
     }
 }
 
@@ -245,4 +357,5 @@
     text-align: center;
     margin-top: 25%;
 }
+
 /*---END RESPONSIVIDADE---*/
