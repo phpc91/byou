@@ -18,6 +18,10 @@
     font-family: 'geomanist-black';
 }
 
+.slider-description {
+    font-family: 'geomanist-regular';
+}
+
 .section-header {
     font-family: 'geomanist-bold';
 }
@@ -119,6 +123,7 @@
 .page-id-20 .product-button {
     font-family: 'geomanist-medium';
     font-size: 10pt;
+    line-height: 110%;
     border: 1px solid;
     border-style: solid;
     border-radius: 0px;
@@ -132,6 +137,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 10px;
+    margin-bottom: 1spx;
 }
 
 .page-id-20 .recipe-button {
@@ -438,7 +444,7 @@
 }
 
 #sfwa_footer, #sfwa_footer * {
-    box-sizing: none;
+    box-sizing: unset;
 }
 
 .footer-bottom {
