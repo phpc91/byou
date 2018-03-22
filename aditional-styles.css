@@ -359,6 +359,27 @@
 
 /*---END---*/
 
+/*---FOOTER---*/
+
+#sfwa_footer, #sfwa_footer * {
+    box-sizing: unset;
+}
+
+.footer-bottom {
+    display: none;
+}
+
+#zoom-social-icons-widget-3 {
+    margin-top: 35%;
+}
+
+#media_image-5 {
+    text-align: center;
+    margin-top: 25%;
+}
+
+/*---END---*/
+
 /*---RESPONSIVIDADE---*/
 
 @media screen and (max-width: 520px) {
@@ -443,21 +464,22 @@
     }
 }
 
-#sfwa_footer, #sfwa_footer * {
-    box-sizing: unset;
-}
-
-.footer-bottom {
-    display: none;
-}
-
-#lsi_widget-7 {
-    margin-top: 35%;
-}
-
-#media_image-5 {
-    text-align: center;
-    margin-top: 25%;
-}
-
 /*---END RESPONSIVIDADE---*/
+
+.icon-circle{
+	display:none;
+}
+
+.pg-pagination{
+	display:none;
+}
+
+.pg-items-wrapper{
+	margin-bottom: 3%;
+}
+
+@media screen and (max-width: 1000px){
+	#media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3{
+		text-align: center;
+	}
+}
