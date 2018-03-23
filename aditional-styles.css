@@ -16,10 +16,15 @@
 
 .cs-title {
     font-family: 'geomanist-black';
+    line-height: 90%;
 }
 
 .slider-description {
     font-family: 'geomanist-regular';
+    line-height: 90%;
+    letter-spacing: 5pt;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .section-header {
@@ -164,8 +169,12 @@
 
 /*---HOME-SLIDER---*/
 
+.page-id-20 .content-slider-wrapper {
+    height: 835px;
+}
+
 .page-id-20 .content-slider {
-    padding-top: 180px;
+    padding-top: 23%;
 }
 
 .page-id-20 #cs-slider-ul .button {
@@ -380,6 +389,24 @@
 
 /*---END---*/
 
+/*---ACERTOS OVERFLOW---*/
+/*---PRODUCTS---*/
+.page-id-107, .page-id-109, .page-id-81 {
+    max-height: 988px;
+    overflow: hidden;
+}
+/*---RECIPES---*/
+.page-id-152, .page-id-169, .page-id-171, .page-id-167 {
+    max-height: 1070px;
+    overflow: hidden;
+}
+/*---OTHER RECIPES---*/
+.page-id-255 {
+   max-height: 920px;
+   overflow: hidden;
+}
+/*---END---*/
+
 /*---RESPONSIVIDADE---*/
 
 @media screen and (max-width: 520px) {
@@ -415,6 +442,14 @@
     #button3 {
         text-align: center;
         margin-top: 0;
+    }
+
+    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3{
+		text-align: center;
+    }
+    
+    .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
+        max-height: auto !important;
     }
 }
 
@@ -462,6 +497,14 @@
     #button3 {
         margin-top: 7%;
     }
+
+    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3{
+		text-align: center;
+    }
+    
+    .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
+        max-height: auto !important;
+    }
 }
 
 /*---END RESPONSIVIDADE---*/
@@ -476,10 +519,4 @@
 
 .pg-items-wrapper{
 	margin-bottom: 3%;
-}
-
-@media screen and (max-width: 1000px){
-	#media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3{
-		text-align: center;
-	}
 }
