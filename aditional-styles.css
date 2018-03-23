@@ -21,7 +21,7 @@
 
 .slider-description {
     font-family: 'geomanist-regular';
-    line-height: 90%;
+    line-height: 120%;
     letter-spacing: 5pt;
     margin-top: 5%;
     margin-bottom: 3%;
@@ -174,16 +174,19 @@
 }
 
 .page-id-20 .content-slider {
-    padding-top: 23%;
+    padding-top: 360px;
 }
 
 .page-id-20 #cs-slider-ul .button {
-    border: 2px solid;
+    border: 1px solid;
+    border-radius: 0;
     background-color: rgba(255, 255, 255, 0);
     border-color: rgb(255, 255, 255);
-    padding-top: 10px;
+    padding-top: 18px;
     padding-bottom: 10px;
+    height: 30px;
     font-family: 'geomanist-bold';
+    letter-spacing: 2pt;
 }
 
 .page-id-20 #slider-content-5 .button {
@@ -444,6 +447,10 @@
         margin-top: 0;
     }
 
+    #zoom-social-icons-widget-3 {
+        margin-top: auto !important;
+    }
+
     #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3{
 		text-align: center;
     }
@@ -469,8 +476,8 @@
         margin: 9% !important;
     }
     .parent {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
     #video-button {
         margin-top: 18%;
