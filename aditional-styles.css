@@ -393,21 +393,28 @@
 /*---END---*/
 
 /*---ACERTOS OVERFLOW---*/
+
 /*---PRODUCTS---*/
+
 .page-id-107, .page-id-109, .page-id-81 {
     max-height: 988px;
     overflow: hidden;
 }
+
 /*---RECIPES---*/
+
 .page-id-152, .page-id-169, .page-id-171, .page-id-167 {
     max-height: 1070px;
     overflow: hidden;
 }
+
 /*---OTHER RECIPES---*/
+
 .page-id-255 {
-   max-height: 920px;
-   overflow: hidden;
+    max-height: 920px;
+    overflow: hidden;
 }
+
 /*---END---*/
 
 /*---RESPONSIVIDADE---*/
@@ -421,6 +428,10 @@
     }
     #part1 {
         padding-bottom: 5%;
+    }
+    #part2 {
+        margin-left: 6.6% !important;
+        margin-right: 6.6% !important;
     }
     #part2-pictures {
         width: auto;
@@ -446,17 +457,25 @@
         text-align: center;
         margin-top: 0;
     }
-
     #zoom-social-icons-widget-3 {
         margin-top: auto !important;
     }
-
-    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3{
-		text-align: center;
+    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3 {
+        text-align: center;
     }
-    
     .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
         max-height: auto !important;
+    }
+    .parent {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    #grey-bg {
+        top: 800px !important;
+        height: 680px !important;
+    }
+    #thename {
+        padding-top: 350px !important;
     }
 }
 
@@ -504,28 +523,30 @@
     #button3 {
         margin-top: 7%;
     }
-
-    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3{
-		text-align: center;
+    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3 {
+        text-align: center;
     }
-    
     .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
         max-height: auto !important;
+    }
+    .parent {
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
 
 /*---END RESPONSIVIDADE---*/
 
-.icon-circle{
-	display:none;
+.icon-circle {
+    display: none;
 }
 
-.pg-pagination{
-	display:none;
+.pg-pagination {
+    display: none;
 }
 
-.pg-items-wrapper{
-	margin-bottom: 3%;
+.pg-items-wrapper {
+    margin-bottom: 3%;
 }
 
 a {
