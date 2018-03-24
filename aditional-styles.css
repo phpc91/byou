@@ -527,3 +527,7 @@
 .pg-items-wrapper{
 	margin-bottom: 3%;
 }
+
+a {
+    color: inherit;
+}
