@@ -103,8 +103,7 @@
 .col-centered {
     display: inline-block;
     margin: 2% auto;
-    width: 45%;
-    height: 410px;
+    height: 470px;
     position: relative;
 }
 
@@ -127,8 +126,8 @@
 
 .page-id-20 .product-button {
     font-family: 'geomanist-medium';
-    font-size: 9pt;
-    line-height: 110%;
+    font-size: 8pt;
+    line-height: 1.5;
     border: 1px solid;
     border-style: solid;
     border-radius: 0px;
@@ -147,7 +146,7 @@
 
 .page-id-20 .recipe-button {
     font-family: 'geomanist-medium';
-    font-size: 10pt;
+    font-size: 8pt;
     border: 1px solid;
     border-style: solid;
     border-radius: 0px;
@@ -174,7 +173,7 @@
 }
 
 .page-id-20 .content-slider {
-    padding-top: 360px;
+    padding-top: 290px;
 }
 
 .page-id-20 #cs-slider-ul .button {
@@ -358,6 +357,48 @@
 /*---END---*/
 
 /*---DISTRIB---*/
+
+.page-id-13 #wpforms-511 {
+    font-family: geomanist-light;
+}
+
+.page-id-13 #wpforms-511-field_0, #wpforms-511-field_1, #wpforms-511-field_2, #wpforms-511-field_4 {
+    font-family: geomanist-light;
+}
+
+.page-id-13 #wpforms-511-field_2-container {
+    padding-left: 148px;
+    padding-right: 110px;
+}
+
+.page-id-13 #wpforms-511-field_1-container {
+    padding-left: 148px;
+    padding-right: 148px;
+}
+
+.page-id-13 #wpforms-511-field_0-container {
+    padding-left: 148px;
+}
+
+.page-id-13 #wpforms-511-field_4-container {
+    padding-right: 148px;
+}
+
+.page-id-13 #wpforms-submit-511 {
+    margin-left: 82%;
+    font-family: geomanist-bold;
+    color: #ffffff;
+    background-color: #490d67;
+
+}
+
+.page-id-13 #wpforms-confirmation-511 {
+    color: #f1f1f1;
+    background-color: #490d6770;
+    border: 1px solid #490d67;
+    font-family: geomanist-light;
+    text-align: center;
+}
 
 /*---DISTRIB-SLIDER---*/
 
