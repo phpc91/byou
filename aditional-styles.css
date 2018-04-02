@@ -356,7 +356,7 @@
 
 /*---END---*/
 
-/*---DISTRIB---*/
+/*---DISTRIBUTORS---*/
 
 .page-id-13 #wpforms-511 {
     font-family: geomanist-light;
@@ -367,21 +367,21 @@
 }
 
 .page-id-13 #wpforms-511-field_2-container {
-    padding-left: 148px;
-    padding-right: 110px;
+    padding-left: 9.74%;
+    padding-right: 7.24%;
 }
 
 .page-id-13 #wpforms-511-field_1-container {
-    padding-left: 148px;
-    padding-right: 148px;
+    padding-left: 9.74%;
+    padding-right: 9.74%;
 }
 
 .page-id-13 #wpforms-511-field_0-container {
-    padding-left: 148px;
+    padding-left: 9.74%;
 }
 
 .page-id-13 #wpforms-511-field_4-container {
-    padding-right: 148px;
+    padding-right: 9.74%;
 }
 
 .page-id-13 #wpforms-submit-511 {
@@ -515,6 +515,10 @@
     #thename {
         padding-top: 350px !important;
     }
+
+    .page-id-13 #wpforms-submit-511 {
+        margin-left: 40% !important;
+    }
 }
 
 @media screen and (min-width: 521px) and (max-width: 1023px) {
@@ -570,6 +574,9 @@
     .parent {
         margin-left: auto !important;
         margin-right: auto !important;
+    }
+    .page-id-13 #wpforms-submit-511 {
+        margin-left: 80% !important;
     }
 }
 
