@@ -444,9 +444,9 @@
     width: 25%;
 }
 
-/*.page-id-2 #content-container .section-boxed {
-    margin: 0 auto;
-}*/
+.page-id-2 .buttons {
+    text-align: left;
+}
 
 /*---END---*/
 
