@@ -107,24 +107,7 @@
     position: relative;
 }
 
-/*---END---*/
-
-/*---HOME---*/
-
-.page-id-20 #section-1 {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-
-.page-id-20 #content-container .section-boxed {
-    margin: 0px auto;
-}
-
-.page-id-20 .section-boxed {
-    max-width: 100% !important;
-}
-
-.page-id-20 .product-button {
+.product-button {
     font-family: 'geomanist-medium';
     font-size: 8pt;
     line-height: 1.5;
@@ -144,7 +127,7 @@
     margin-bottom: 1px;
 }
 
-.page-id-20 .recipe-button {
+.recipe-button {
     font-family: 'geomanist-medium';
     font-size: 8pt;
     border: 1px solid;
@@ -157,6 +140,27 @@
     height: 40px;
     text-align: center;
     padding-top: 10px;
+}
+
+.product-button:hover, .recipe-button:hover {
+    color: #490d67 !important;
+}
+
+/*---END---*/
+
+/*---HOME---*/
+
+.page-id-20 #section-1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.page-id-20 #content-container .section-boxed {
+    margin: 0px auto;
+}
+
+.page-id-20 .section-boxed {
+    max-width: 100% !important;
 }
 
 .home-buttons {
@@ -410,6 +414,39 @@
 .page-id-13 .cs-content-left, .cs-content-right, .cs-content-centered {
     margin-top: 10%;
 }
+
+/*---END---*/
+
+/*---ALL-PRODUCTS---*/
+
+.page-id-2 .side-text {
+    position: absolute;
+    bottom: 20%;
+}
+
+.page-id-2 .description {
+    font-family: geomanist-black;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 3.5px;
+    font-size: 19pt;
+}
+
+.page-id-2 .parent {
+    margin: 0;
+}
+
+.page-id-2 .col-centered {
+    height: 400px;
+}
+
+.page-id-2 .cols-4 .col {
+    width: 25%;
+}
+
+/*.page-id-2 #content-container .section-boxed {
+    margin: 0 auto;
+}*/
 
 /*---END---*/
 
