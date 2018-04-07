@@ -550,7 +550,10 @@
         height: 680px !important;
     }
     #thename {
-        padding-top: 350px !important;
+        padding-top: 460px !important;
+        width: 94% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
     }
 
     .page-id-13 #wpforms-submit-511 {
@@ -566,7 +569,7 @@
         bottom: auto;
     }
 
-    .page-id-2 #text1, #tex2, #text3, #text4 {
+    .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
         text-align: center !important;
         height: 160px !important;
     }
