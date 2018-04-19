@@ -469,6 +469,10 @@
     margin-top: 25%;
 }
 
+.footer-send-email:hover {
+    color:white;
+}
+
 /*---END---*/
 
 /*---ACERTOS OVERFLOW---*/
@@ -531,6 +535,9 @@
     #button3 {
         text-align: center;
         margin-top: 0;
+    }
+    #button4 {
+        text-align: center;
     }
     #zoom-social-icons-widget-3 {
         margin-top: auto !important;
