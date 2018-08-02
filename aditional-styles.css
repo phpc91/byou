@@ -47,51 +47,43 @@
     text-align: center;
 }
 
-/*---END---*/
-
 /*---SLIDER BUTTONS + ARROWS---*/
-
 /*---BUTTONS---*/
-
 .nivo-controlNav a {
     border: 2px solid #490d67;
     background: #490d67
 }
-
 .nivo-controlNav a.active {
     border: 2px solid #490d67
 }
 
 /*---ARROWS---*/
-
 .cs-arrows {
     color: #ffffff;
     background-color: #ffffff00;
 }
-
 .cs-arrows:hover {
     color: #ffffff;
     background-color: #490d6770;
 }
-
 .controlArrow.prev, .controlArrow.next {
     background-color: #490d6750;
 }
-
 .controlArrow.prev:hover, .controlArrow.next:hover {
     background-color: #490d67;
 }
 
 /*---FADE SLIDER CONTROLS---*/
-
 .nivo-controlNav {
     transform: rotatez(90deg);
     left: 45%;
     bottom: 50%;
 }
 
-/*---END---*/
-
+/*---MENU---*/
+#menu-item-593 .sub-menu {
+    width: 230px;
+}
 /*---CUSTOM CLASSES---*/
 
 .parent {
