@@ -364,70 +364,83 @@
 
 /*---END---*/
 
-/*---DISTRIBUTORS---*/
+/*---CONTACT-US---*/
 
-.page-id-13 #wpforms-511 {
+#distributor-contact input, #distributor-contact textarea, #consumer-contact input, #consumer-contact textarea {
+    border-radius: 5px;
+}
+.page-id-13 #wpforms-511, #wpforms-608 {
     font-family: geomanist-light;
 }
-
-.page-id-13 #wpforms-511-field_0, #wpforms-511-field_1, #wpforms-511-field_2, #wpforms-511-field_4 {
+.page-id-13 #wpforms-511-field_0, #wpforms-511-field_1, #wpforms-511-field_2, #wpforms-511-field_4, 
+#wpforms-608-field_0, #wpforms-608-field_4, #wpforms-608-field_1, #wpforms-608-field_5, #wpforms-608-field_6, #wpforms-608-field_2 {
     font-family: geomanist-light;
 }
-
-.page-id-13 #wpforms-511-field_2-container {
+/*message*/
+.page-id-13 #wpforms-511-field_2-container, #wpforms-608-field_2-container {
     padding-left: 10.5%;
     padding-right: 7.24%;
 }
-
-.page-id-13 #wpforms-511-field_1-container {
+/*email*/
+.page-id-13 #wpforms-511-field_1-container, #wpforms-608-field_1-container {
     padding-left: 10.5%;
     padding-right: 10.5%;
 }
-
-.page-id-13 #wpforms-511-field_0-container {
+/*name / nationality*/
+.page-id-13 #wpforms-511-field_0-container, #wpforms-608-field_0-container, #wpforms-608-field_5-container {
     padding-left: 10.5%;
 }
-
-.page-id-13 #wpforms-511-field_4-container {
+/*phone / company*/
+.page-id-13 #wpforms-511-field_4-container, #wpforms-608-field_4-container, #wpforms-608-field_6-container {
     padding-right: 10.5%;
 }
-
-.page-id-13 #wpforms-submit-511 {
+.page-id-13 #wpforms-submit-511, .page-id-13 #wpforms-submit-608 {
     margin-left: 81%;
     font-family: geomanist-bold;
     color: #ffffff;
     background-color: #490d67;
-
+    border-radius: 5px;
 }
-
-.page-id-13 #wpforms-confirmation-511 {
+.page-id-13 #wpforms-confirmation-511, .page-id-13 #wpforms-confirmation-608 {
     color: #f1f1f1;
     background-color: #490d6770;
     border: 1px solid #490d67;
     font-family: geomanist-light;
     text-align: center;
+    border-radius: 5px;
 }
-
-/*---DISTRIB-SLIDER---*/
-
+.page-id-13 #consumer #banner {
+    width: 100vw;
+    margin-left: -14.7%;
+}
+.page-id-13 #info {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.page-id-13 #info #text {
+    width: 31.4%;
+    margin-left: 14%;
+    margin-top: 6%;
+}
+.page-id-13 #info #logo {
+    text-align: center;
+    margin-left: 15%;
+    width: fit-content;
+}
+/*---CONTACT-US-SLIDER---*/
 .page-id-13 #content-slider-13 {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-
 .page-id-13 .cs-content-left, .cs-content-right, .cs-content-centered {
     margin-top: 10%;
 }
 
-/*---END---*/
-
 /*---ALL-PRODUCTS---*/
-
 .page-id-2 .side-text {
     position: absolute;
     bottom: 20%;
 }
-
 .page-id-2 .description {
     font-family: geomanist-black;
     line-height: 1.2;
@@ -435,19 +448,18 @@
     letter-spacing: 3.5px;
     font-size: 19pt;
 }
-
 .page-id-2 .parent {
     margin: 0;
 }
-
+.page-id-2 .usda-logo {
+    float: left;
+}
 .page-id-2 .col-centered {
     height: 400px;
 }
-
 .page-id-2 .cols-4 .col {
     width: 25%;
 }
-
 .page-id-2 .buttons {
     text-align: left;
 }
@@ -467,7 +479,10 @@
 #zoom-social-icons-widget-3 {
     margin-top: 35%;
 }
-
+#zoom-social-icons-widget-5 {
+    margin-top: 80px;
+    text-align: center;
+}
 #media_image-5 {
     text-align: center;
     margin-top: 25%;
