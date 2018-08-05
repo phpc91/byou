@@ -659,7 +659,16 @@
         margin-left: 80% !important;
     }
 }
-
+@media screen and (width: 1440px) {
+    .page-id-20 #part1 .cols-4 .col {
+        width: 24%;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px){
+    .page-id-20 #part1 .cols-4 .col {
+        width: 18%;
+    } 
+}
 /*---END RESPONSIVIDADE---*/
 
 .icon-circle {
