@@ -439,7 +439,7 @@
 /*---ALL-PRODUCTS---*/
 .page-id-2 .side-text {
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
 }
 .page-id-2 .description {
     font-family: geomanist-black;
@@ -453,6 +453,7 @@
 }
 .page-id-2 .usda-logo {
     float: left;
+    margin-top: 20px;
 }
 .page-id-2 .col-centered {
     height: 400px;
