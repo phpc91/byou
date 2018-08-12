@@ -1036,20 +1036,48 @@
 }
 /*---RESPONSIVIDADE-PC---*/
 @media screen and (min-width: 1023px) and (max-width: 1280px){
-    
+    /*-story*/
+    .page-id-8 #grey-bg {
+        top: 995px;
+    }
+    /*-contact us*/
+    .page-id-13 #consumer #banner {
+        margin-left: -3.35%;
+    }
 }
 @media screen and (min-width: 1281px) and (max-width: 1367px){
-
+    /*-story*/
+    .page-id-8 #grey-bg {
+        top: 1030px;
+    }
+    /*-contact us*/
+    .page-id-13 #consumer #banner {
+        margin-left: -7.2%;
+    }
 }
 @media screen and (min-width: 1368px) and (max-width: 1440px) {
+    /*-home*/
     .page-id-20 #part1 .cols-4 .col {
         width: 24%;
     }
+    /*-story*/
+    .page-id-8 #grey-bg {
+        top: 1030px;
+    }
+    /*-contact us*/
+    .page-id-13 #consumer #banner {
+        margin-left: -10%;
+    }
 }
 @media screen and (min-width: 1600px) and (max-width: 1920px){
+    /*-home*/
     .page-id-20 #part1 .cols-4 .col {
         width: 18%;
-    } 
+    }
+    /*-contact us*/
+    .page-id-13 #consumer #banner {
+        margin-left: -30%;
+    }
 }
 /*---END RESPONSIVIDADE---*/
 
