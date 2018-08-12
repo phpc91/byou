@@ -84,6 +84,9 @@
 #menu-item-593 .sub-menu {
     width: 230px;
 }
+.social-icons li {
+    margin-right: 5px;
+}
 /*---CUSTOM CLASSES---*/
 
 .parent {
