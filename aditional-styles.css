@@ -609,6 +609,7 @@
     /*--smoothie, powder, puree*/
     .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
         height: 140px;
+        min-height: unset;
     }
     /*-story*/
     #grey-bg {
@@ -647,6 +648,7 @@
     /*--classic-bowl, classic-smoothie, extra healthy, fresh bowl*/
     .page-id-152 #full-with, .page-id-169 #full-width, .page-id-171 #full-width, .page-id-167 #full-width {
         height: 160px;
+        min-height: unset;
     }
     .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
         max-height: fit-content;
@@ -654,15 +656,15 @@
 }
 /*Smartphone M*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 424px) {
+    /*home*/
     #lsi_widget-7 {
         margin-top: 5% !important;
     }
-    #media_image-5 {
-        margin-top: 5% !important;
-    }
+    /*-part1*/
     #part1 {
         padding-bottom: 5%;
     }
+    /*-part2*/
     #part2-pictures {
         width: auto;
         margin-top: 3%;
@@ -672,13 +674,24 @@
     #video-button {
         margin-top: 7% !important;
     }
+    /*-part3*/
     #part3-wrapper {
         height: auto !important;
+    }
+    #part3-text {
+        position: unset;
+    }
+    #part3-text #button3 button, #part3-text #button4 button {
+        width: 75vw !important;
     }
     #part3-pictures {
         margin-left: 18% !important;
         margin-bottom: 0 !important;
-        height: 240px;
+    }
+    #part3-pictures #pictures3-under {
+        width: 90vw;
+        margin-top: 35px;
+        margin-left: -18%;
     }
     #text3 {
         margin-bottom: 18%;
@@ -690,21 +703,46 @@
     #button4 {
         text-align: center;
     }
+    /*footer*/
+    #media_image-5 {
+        margin-top: 5% !important;
+    }
     #zoom-social-icons-widget-3 {
         margin-top: auto !important;
     }
-    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3 {
+    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #custom_html-9, #zoom-social-icons-widget-3 {
         text-align: center;
     }
-    .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
-        max-height: auto !important;
+
+    /*outras páginas*/
+    /*-products*/
+    .page-id-2 .buttons, .description {
+        text-align: center !important;
+    }
+    .page-id-2 .side-text {
+        position: relative;
+        bottom: auto;
+    }
+    .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
+        text-align: center !important;
+        height: 160px !important;
+    }
+    .page-id-2 #part1 .cols-wrapper .parent {
+        height: 1200px;
     }
     .parent {
         margin-left: auto !important;
         margin-right: auto !important;
+        height: 1270px;
     }
+    /*--smoothie, powder, puree*/
+    .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
+        height: 165px;
+        min-height: unset;
+    }
+    /*-story*/
     #grey-bg {
-        top: 800px !important;
+        top: 1160px !important;
         height: 680px !important;
     }
     #thename {
@@ -713,36 +751,49 @@
         margin-left: 5% !important;
         margin-right: 5% !important;
     }
-
-    .page-id-13 #wpforms-submit-511 {
-        margin-left: 40% !important;
+    /*-contact us*/
+    .page-id-13 .wpforms-submit-container {
+        width: 85%;
     }
-
-    .page-id-2 .buttons, .description {
-        text-align: center !important;
+    .page-id-13 #consumer #banner {
+        margin-left: -3.3%;
+        margin-top: 90px;
     }
-
-    .page-id-2 .side-text {
-        position: relative;
-        bottom: auto;
+    .page-id-13 #info {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-
-    .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
-        text-align: center !important;
-        height: 160px !important;
+    .page-id-13 #wpforms-511 {
+        margin-bottom: 70px;
+    }
+    /*-recipes*/
+    .page-id-11 .content-boxed {
+        height: 900px;
+    }
+    /*--other recipes*/
+    .page-id-255 #full-width {
+        height: 128px;
+    }
+    /*--classic-bowl, classic-smoothie, extra healthy, fresh bowl*/
+    .page-id-152 #full-with, .page-id-169 #full-width, .page-id-171 #full-width, .page-id-167 #full-width {
+        height: 187px;
+        min-height: unset;
+    }
+    .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
+        max-height: fit-content;
     }
 }
 /*Smartphone L*/
 @media only screen and (min-device-width : 425px) and (max-device-width : 480px){
+    /*home*/
     #lsi_widget-7 {
         margin-top: 5% !important;
     }
-    #media_image-5 {
-        margin-top: 5% !important;
-    }
+    /*-part1*/
     #part1 {
         padding-bottom: 5%;
     }
+    /*-part2*/
     #part2-pictures {
         width: auto;
         margin-top: 3%;
@@ -752,13 +803,24 @@
     #video-button {
         margin-top: 7% !important;
     }
+    /*-part3*/
     #part3-wrapper {
         height: auto !important;
+    }
+    #part3-text {
+        position: unset;
+    }
+    #part3-text #button3 button, #part3-text #button4 button {
+        width: 75vw !important;
     }
     #part3-pictures {
         margin-left: 18% !important;
         margin-bottom: 0 !important;
-        height: 240px;
+    }
+    #part3-pictures #pictures3-under {
+        width: 90vw;
+        margin-top: 35px;
+        margin-left: -18%;
     }
     #text3 {
         margin-bottom: 18%;
@@ -770,21 +832,46 @@
     #button4 {
         text-align: center;
     }
+    /*footer*/
+    #media_image-5 {
+        margin-top: 5% !important;
+    }
     #zoom-social-icons-widget-3 {
         margin-top: auto !important;
     }
-    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3 {
+    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #custom_html-9, #zoom-social-icons-widget-3 {
         text-align: center;
     }
-    .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
-        max-height: auto !important;
+
+    /*outras páginas*/
+    /*-products*/
+    .page-id-2 .buttons, .description {
+        text-align: center !important;
+    }
+    .page-id-2 .side-text {
+        position: relative;
+        bottom: auto;
+    }
+    .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
+        text-align: center !important;
+        height: 160px !important;
+    }
+    .page-id-2 #part1 .cols-wrapper .parent {
+        height: 1200px;
     }
     .parent {
         margin-left: auto !important;
         margin-right: auto !important;
+        height: 1270px;
     }
+    /*--smoothie, powder, puree*/
+    .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
+        height: 190px;
+        min-height: unset;
+    }
+    /*-story*/
     #grey-bg {
-        top: 800px !important;
+        top: 1160px !important;
         height: 680px !important;
     }
     #thename {
@@ -793,31 +880,103 @@
         margin-left: 5% !important;
         margin-right: 5% !important;
     }
-
-    .page-id-13 #wpforms-submit-511 {
-        margin-left: 40% !important;
+    /*-contact us*/
+    .page-id-13 .wpforms-submit-container {
+        width: 85%;
     }
-
-    .page-id-2 .buttons, .description {
-        text-align: center !important;
+    .page-id-13 #consumer #banner {
+        margin-left: -3.3%;
+        margin-top: 90px;
     }
-
-    .page-id-2 .side-text {
-        position: relative;
-        bottom: auto;
+    .page-id-13 #info {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-
-    .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
-        text-align: center !important;
-        height: 160px !important;
+    .page-id-13 #wpforms-511 {
+        margin-bottom: 70px;
+    }
+    /*-recipes*/
+    .page-id-11 .content-boxed {
+        height: 900px;
+    }
+    /*--other recipes*/
+    .page-id-255 #full-width {
+        height: 128px;
+    }
+    /*--classic-bowl, classic-smoothie, extra healthy, fresh bowl*/
+    .page-id-152 #full-with, .page-id-169 #full-width, .page-id-171 #full-width, .page-id-167 #full-width {
+        height: 214px;
+        min-height: unset;
+    }
+    .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
+        max-height: fit-content;
     }
 }
 
 /*iPad*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    #grey-bg {
-        height: 800px !important;
-        top: 800px !important;
+    #full-width {
+        min-height: unset;
+    }
+    /*-home*/
+    .page-id-20 #part1 .cols-4 .col {
+        margin-right: 2% !important;
+    }
+    .page-id-20 #video-button {
+        margin-top: 18%;
+    }
+    .page-id-20 #part2-wrapper, #part3-wrapper {
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+        height: 850px;
+    }
+    .page-id-20 #part2-text {
+        width: 28.5%;
+    }
+    .page-id-20 #part2-pictures {
+        width: auto;
+        margin-top: 32%;
+    }
+    .page-id-20 #part3-text {
+        width: 38%;
+        margin-left: 4% !important;
+    }
+    .page-id-20 #part3-pictures {
+        margin-top: 17%;
+    }
+    .page-id-20 #pictures3-under {
+        width: 75%;
+        margin-left: 20%;
+        margin-top: 200px;
+    }
+    .page-id-20 #button3 {
+        margin-top: 7%;
+    }
+    /*-products*/
+    .page-id-2 .cols-4 .col {
+        width: 23%;
+        height: 280px !important;
+    }
+    .page-id-2 .side-text {
+        bottom: 20%;
+    }
+    .page-id-2 .cols-4 .col:nth-of-type(3n) {
+        margin-left: 3% !important;
+    }
+    .parent {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .page-id-13 #wpforms-submit-511 {
+        margin-left: 80% !important;
+    }
+    /*--smoothie, powder, puree*/
+    .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
+        height: 345px;
+    }
+    /*--classic-bowl, classic-smoothie, extra healthy, fresh bowl*/
+    .page-id-152 #full-with, .page-id-169 #full-width, .page-id-171 #full-width, .page-id-167 #full-width {
+        height: 214px;
     }
     #images {
         height: 400px;
@@ -833,43 +992,46 @@
         margin-left: auto !important;
         margin-right: auto !important;
     }
-    #video-button {
-        margin-top: 18%;
-    }
-    #part2-wrapper, #part3-wrapper {
-        margin-left: 4% !important;
-        margin-right: 4% !important;
-        height: auto;
-    }
-    #part2-text {
-        width: 28.5%;
-    }
-    #part2-pictures {
-        width: auto;
-        margin-top: 32%;
-    }
-    #part3-text {
-        width: 38%;
-        margin-left: 4% !important;
-    }
-    #part3-pictures {
-        margin-top: 17%;
-    }
-    #button3 {
-        margin-top: 7%;
-    }
-    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #zoom-social-icons-widget-3 {
-        text-align: center;
-    }
     .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
-        max-height: auto !important;
+        max-height: fit-content;
     }
-    .parent {
-        margin-left: auto !important;
-        margin-right: auto !important;
+    /*-story*/
+    .page-id-8 #part1 #img1 {
+        margin-left: 0;
     }
-    .page-id-13 #wpforms-submit-511 {
-        margin-left: 80% !important;
+    .page-id-8 #part1 #text1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .page-id-8 #part2 {
+        height: 760px;
+    }
+    .page-id-8 #thename {
+        width: 36%;
+    }
+    #grey-bg {
+        height: 400px !important;
+        top: 1045px !important;
+    }
+    .page-id-8 #mission {
+        margin-left: 0;
+        width: 30%;
+    }
+    .page-id-8 #vision, .page-id-8 #value {
+        width: 26%;
+        margin-right: 0;
+        margin-left: 7%;
+    }
+    /*-contact us*/
+    #consumer #banner {
+        margin-left: -3.2%;
+    }
+    /*footer*/
+    .sfwa_grid_six .footer-information .sfwa_row .sfwa_footer_area {
+        width: 29%;
+    }
+    #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #custom_html-9, #zoom-social-icons-widget-3 {
+        text-align: center;
     }
 }
 /*---RESPONSIVIDADE-PC---*/
