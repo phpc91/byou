@@ -535,6 +535,9 @@
     #part1 {
         padding-bottom: 5%;
     }
+    .page-id-20 #part3 {
+        height: 1100px;
+    }
     /*-part2*/
     #part2-pictures {
         width: auto;
@@ -594,6 +597,9 @@
         position: relative;
         bottom: auto;
     }
+    .page-id-2 .usda-logo {
+        float: unset;
+    }
     .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
         text-align: center !important;
         height: 160px !important;
@@ -601,7 +607,7 @@
     .page-id-2 #part1 .cols-wrapper .parent {
         height: 1200px;
     }
-    .parent {
+    .page-id-2 parent {
         margin-left: auto !important;
         margin-right: auto !important;
         height: 1270px;
@@ -664,6 +670,9 @@
     #part1 {
         padding-bottom: 5%;
     }
+    .page-id-20 #part3 {
+        height: 1100px;
+    }
     /*-part2*/
     #part2-pictures {
         width: auto;
@@ -730,10 +739,13 @@
     .page-id-2 #part1 .cols-wrapper .parent {
         height: 1200px;
     }
-    .parent {
+    .page-id-2 .parent {
         margin-left: auto !important;
         margin-right: auto !important;
-        height: 1270px;
+        height: 1285px;
+    }
+    .page-id-2 .usda-logo {
+        float: unset;
     }
     /*--smoothie, powder, puree*/
     .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
@@ -793,6 +805,9 @@
     #part1 {
         padding-bottom: 5%;
     }
+    .page-id-20 #part3 {
+        height: 1100px;
+    }
     /*-part2*/
     #part2-pictures {
         width: auto;
@@ -859,10 +874,13 @@
     .page-id-2 #part1 .cols-wrapper .parent {
         height: 1200px;
     }
-    .parent {
+    .page-id-2 .parent {
         margin-left: auto !important;
         margin-right: auto !important;
-        height: 1270px;
+        height: 1300px;
+    }
+    .page-id-2 .usda-logo {
+        float: unset;
     }
     /*--smoothie, powder, puree*/
     .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
