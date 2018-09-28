@@ -535,6 +535,9 @@
     #part1 {
         padding-bottom: 5%;
     }
+    .recipe-button, .product-button {
+        height: 49px;
+    }
     .page-id-20 #part3 {
         height: 1100px;
     }
@@ -670,6 +673,9 @@
     #part1 {
         padding-bottom: 5%;
     }
+    .recipe-button, .product-button {
+        height: 49px;
+    }
     .page-id-20 #part3 {
         height: 1100px;
     }
@@ -804,6 +810,9 @@
     /*-part1*/
     #part1 {
         padding-bottom: 5%;
+    }
+    .recipe-button, .product-button {
+        height: 49px;
     }
     .page-id-20 #part3 {
         height: 1100px;
@@ -1091,6 +1100,12 @@
     /*-home*/
     .page-id-20 #part1 .cols-4 .col {
         width: 18%;
+    }
+    #pictures2-over {
+        margin-top: 20%;
+    }
+    .page-id-20 #part3 {
+        height: 1250px;
     }
     /*-contact us*/
     .page-id-13 #consumer #banner {
