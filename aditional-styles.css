@@ -611,6 +611,39 @@ footer#footer {
 }
 /*---END---*/
 
+/*---EDUCATIONAL---*/
+.page-id-700 #section-1 > div.content-slider-wrapper {
+  max-height: 500px;
+}
+.page-id-700 #content-slider-700 > div {
+  padding-top: 100px;
+}
+.page-id-700 #slider-content-1 > div.cs-content-left.col.cs-content > h2,
+.page-id-700 #slider-content-1 > div.cs-content-left.col.cs-content > p {
+  color: #490d67;
+}
+.page-id-700 #section-1 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.page-id-700 #content-container .section-boxed {
+  margin: 0px auto;
+}
+.page-id-700 .section-boxed {
+  max-width: 100% !important;
+}
+
+#educational-img {
+  margin-top: 0;
+}
+
+/*---VIDEOS-RECIPES---*/
+.page-id-11 #slider-container {
+  max-height: 540px;
+}
+.page-id-11 #content-slider-11 > div {
+  padding-top: 150px;
+}
 /*---FOOTER---*/
 
 #sfwa_footer, #sfwa_footer * {
@@ -653,10 +686,10 @@ footer#footer {
 
 /*---RECIPES---*/
 
-.page-id-152, .page-id-169, .page-id-171, .page-id-167 {
+/* .page-id-152, .page-id-169, .page-id-171, .page-id-167 {
   max-height: 1070px;
   overflow: hidden;
-}
+} */
 
 /*---OTHER RECIPES---*/
 
