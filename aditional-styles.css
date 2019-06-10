@@ -100,17 +100,33 @@
 
 /*---CUSTOM CLASSES---*/
 
-.parent {
-  text-align: center;
+.products-wrapper {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
   margin-left: 9%;
   margin-right: 9%;
+  padding-bottom: 10px;
 }
 
-.col-centered {
-  display: inline-block;
-  margin: 2% auto;
-  height: 470px;
-  position: relative;
+.product-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.product-picture {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.product-data {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
 }
 
 .product-button {
@@ -123,8 +139,8 @@
   border-color: #645d67;
   color: #645d67;
   background-color: #ffffff00;
-  width: 145px;
-  height: 40px;
+  width: 215px;
+  height: 55px;
   padding: 0 9px;
   margin-bottom: 1px;
 }
@@ -153,6 +169,29 @@
   transition: all 0.2s ease-in;
 }
 
+footer#footer {
+  display: none;
+}
+#zoom-social-icons-widget-11 ul {
+ text-align: right; 
+}
+#media_image-5 {
+  margin-top: 0 !important;
+}
+#media_image-5 img {
+  max-width: 900px !important;
+}
+.footer-creditibility {
+  background-color: #490d67;
+}
+#copyright-text {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-end;
+  color: white;
+  font-family: geomanist-light;
+  font-weight: 100;
+}
 /*---END---*/
 
 /*---HOME---*/
@@ -171,10 +210,18 @@
 }
 
 .home-buttons {
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  flex: 1;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: column;
   width: -webkit-fill-available;
   text-align: center;
+}
+
+.stamps {
+  display: flex;
+  flex: 1
 }
 
 /*---HOME-SLIDER---*/
@@ -265,6 +312,44 @@
   width: 65%;
   margin-left: 10%;
   margin-top: 155px;
+}
+
+#part4 {
+  display: flex; 
+  align-items: center; 
+  background-color: #ededee; 
+  padding: 0 9%; 
+}
+#part4-left-wrapper {
+  display: flex; 
+  flex: 2; 
+  flex-direction: column;
+}
+#part4-text h4,
+#part4-text p {
+  width: 80%;
+}
+.custom-form-input input {
+  border-radius: 5px !important;
+  font-family: geomanist-light !important;
+}
+.custom-form-input label {
+  font-family: geomanist-bold; 
+}
+#wpforms-submit-674 {
+  font-family: geomanist-medium;
+  font-size: 8pt;
+  line-height: 1.5;
+  border-radius: 5px;
+  color: #645d67;
+}
+#wpforms-submit-674:hover {
+  color: white;
+}
+#part4-img {
+  display: flex; 
+  flex: 1;
+  padding: 75px;
 }
 
 /*---END---*/
@@ -479,41 +564,51 @@
 }
 
 /*---ALL-PRODUCTS---*/
-
-.page-id-2 .side-text {
-  position: absolute;
-  bottom: 15%;
+.page-id-2 #products-content-wrapper {
+  display: flex;
+  flex: 1;
 }
-
-.page-id-2 .description {
-  font-family: geomanist-black;
-  line-height: 1.2;
-  text-align: left;
-  letter-spacing: 3.5px;
-  font-size: 19pt;
+.page-id-2 .products-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 0 10px;
 }
-
-.page-id-2 .parent {
-  margin: 0;
+.page-id-2 .product-cell {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  min-height: 300px;
+  margin: 10px 0;
 }
-
-.page-id-2 .usda-logo {
-  float: left;
-  margin-top: 20px;
+.page-id-2 .product-picture {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  margin: 0 10px;
 }
-
-.page-id-2 .col-centered {
-  height: 400px;
+.page-id-2 .product-data {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-bottom: 10px;
 }
-
-.page-id-2 .cols-4 .col {
-  width: 25%;
+.page-id-2 .product-data h4 {
+  font-family: 'geomanist-black';
+  color: #490d67;
+  font-size: 30px;
+  line-height: 110%;
+  letter-spacing: 2px;
 }
-
-.page-id-2 .buttons {
-  text-align: left;
+.page-id-2 .product-data button {
+  height: auto;
+  width: auto;
+  padding: 20px 30px;
 }
-
 /*---END---*/
 
 /*---FOOTER---*/
