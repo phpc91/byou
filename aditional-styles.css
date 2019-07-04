@@ -675,10 +675,12 @@ footer#footer {
 }
 
 /*---VIDEOS-RECIPES---*/
-.page-id-11 #slider-container {
+.page-id-11 #slider-container,
+.page-id-885 #slider-container {
   max-height: 540px;
 }
-.page-id-11 #content-slider-11 > div {
+.page-id-11 #content-slider-11 > div,
+.page-id-885 #content-slider-11 > div {
   padding-top: 150px;
 }
 /*---FOOTER---*/
@@ -870,7 +872,8 @@ footer#footer {
     margin-bottom: 70px;
   }
   /*-recipes*/
-  .page-id-11 .content-boxed {
+  .page-id-11 .content-boxed,
+  .page-id-885 .content-boxed {
     height: 900px;
   }
   /*--other recipes*/
@@ -1016,7 +1019,8 @@ footer#footer {
     margin-bottom: 70px;
   }
   /*-recipes*/
-  .page-id-11 .content-boxed {
+  .page-id-11 .content-boxed,
+  .page-id-885 .content-boxed {
     height: 900px;
   }
   /*--other recipes*/
@@ -1162,7 +1166,8 @@ footer#footer {
     margin-bottom: 70px;
   }
   /*-recipes*/
-  .page-id-11 .content-boxed {
+  .page-id-11 .content-boxed,
+  .page-id-885 .content-boxed {
     height: 900px;
   }
   /*--other recipes*/
