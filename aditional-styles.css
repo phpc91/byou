@@ -509,49 +509,46 @@ footer#footer {
   border-radius: 5px;
 }
 
-.page-id-13 #wpforms-511, #wpforms-608 {
+.page-id-13 #wpforms-511, #wpforms-608,
+.page-id-907 #wpforms-909, #wpforms-910 {
   font-family: geomanist-light;
 }
-
-.page-id-13 #wpforms-511-field_0, #wpforms-511-field_1, #wpforms-511-field_2, #wpforms-511-field_4, #wpforms-608-field_0, #wpforms-608-field_4, #wpforms-608-field_1, #wpforms-608-field_5, #wpforms-608-field_6, #wpforms-608-field_2 {
+.page-id-13 #wpforms-511-field_0, #wpforms-511-field_1, #wpforms-511-field_2, #wpforms-511-field_4, #wpforms-608-field_0, #wpforms-608-field_4, #wpforms-608-field_1, #wpforms-608-field_5, #wpforms-608-field_6, #wpforms-608-field_2,
+.page-id-907 #wpforms-910-field_0, #wpforms-910-field_1, #wpforms-910-field_2, #wpforms-910-field_4, #wpforms-909-field_0, #wpforms-909-field_4, #wpforms-909-field_1, #wpforms-909-field_5, #wpforms-909-field_6, #wpforms-909-field_2 {
   font-family: geomanist-light;
 }
-
 /*message*/
-
-.page-id-13 #wpforms-511-field_2-container, #wpforms-608-field_2-container {
+.page-id-13 #wpforms-511-field_2-container, #wpforms-608-field_2-container,
+.page-id-907 #wpforms-910-field_2-container, #wpforms-909-field_2-container {
   padding-left: 10.5%;
   padding-right: 7.24%;
 }
-
 /*email*/
-
-.page-id-13 #wpforms-511-field_1-container, #wpforms-608-field_1-container {
+.page-id-13 #wpforms-511-field_1-container, #wpforms-608-field_1-container,
+.page-id-907 #wpforms-910-field_1-container, #wpforms-909-field_1-container {
   padding-left: 10.5%;
   padding-right: 10.5%;
 }
-
 /*name / nationality*/
-
-.page-id-13 #wpforms-511-field_0-container, #wpforms-608-field_0-container, #wpforms-608-field_5-container {
+.page-id-13 #wpforms-511-field_0-container, #wpforms-608-field_0-container, #wpforms-608-field_5-container,
+.page-id-907 #wpforms-910-field_0-container, #wpforms-909-field_0-container, #wpforms-909-field_5-container {
   padding-left: 10.5%;
 }
-
 /*phone / company*/
-
-.page-id-13 #wpforms-511-field_4-container, #wpforms-608-field_4-container, #wpforms-608-field_6-container {
+.page-id-13 #wpforms-511-field_4-container, #wpforms-608-field_4-container, #wpforms-608-field_6-container,
+.page-id-907 #wpforms-910-field_4-container, #wpforms-909-field_4-container, #wpforms-909-field_6-container {
   padding-right: 10.5%;
 }
-
-.page-id-13 #wpforms-submit-511, .page-id-13 #wpforms-submit-608 {
+.page-id-13 #wpforms-submit-511, .page-id-13 #wpforms-submit-608,
+.page-id-907 #wpforms-submit-910, .page-id-907 #wpforms-submit-909 {
   margin-left: 81%;
   font-family: geomanist-bold;
   color: #ffffff;
   background-color: #490d67;
   border-radius: 5px;
 }
-
-.page-id-13 #wpforms-confirmation-511, .page-id-13 #wpforms-confirmation-608 {
+.page-id-13 #wpforms-confirmation-511, .page-id-13 #wpforms-confirmation-608,
+.page-id-907 #wpforms-confirmation-910, .page-id-907 #wpforms-confirmation-909 {
   color: #f1f1f1;
   background-color: #490d6770;
   border: 1px solid #490d67;
@@ -560,23 +557,27 @@ footer#footer {
   border-radius: 5px;
 }
 
-.page-id-13 #consumer #banner {
+.page-id-13 #consumer #banner,
+.page-id-907 #consumer #banner {
   width: 100vw;
   margin-left: -14.7%;
 }
 
-.page-id-13 #info {
+.page-id-13 #info,
+.page-id-907 #info {
   margin-top: 100px;
   margin-bottom: 50px;
 }
 
-.page-id-13 #info #text {
+.page-id-13 #info #text,
+.page-id-907 #info #text {
   width: 31.4%;
   margin-left: 14%;
   margin-top: 6%;
 }
 
-.page-id-13 #info #logo {
+.page-id-13 #info #logo,
+.page-id-907 #info #logo {
   text-align: center;
   margin-left: 15%;
   width: fit-content;
@@ -584,12 +585,14 @@ footer#footer {
 
 /*---CONTACT-US-SLIDER---*/
 
-.page-id-13 #content-slider-13 {
+.page-id-13 #content-slider-13,
+.page-id-907 #content-slider-13 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-.page-id-13 .cs-content-left, .cs-content-right, .cs-content-centered {
+.page-id-13 .cs-content-left, .cs-content-right, .cs-content-centered,
+.page-id-907 .cs-content-left, .cs-content-right, .cs-content-centered {
   margin-top: 10%;
 }
 
