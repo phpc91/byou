@@ -652,24 +652,31 @@ footer#footer {
 /*---END---*/
 
 /*---EDUCATIONAL---*/
-.page-id-700 #section-1 > div.content-slider-wrapper {
+.page-id-700 #section-1 > div.content-slider-wrapper,
+.page-id-948 #section-1 > div.content-slider-wrapper {
   max-height: 500px;
 }
-.page-id-700 #content-slider-700 > div {
+.page-id-700 #content-slider-700 > div,
+.page-id-948 #content-slider-948 > div {
   padding-top: 100px;
 }
 .page-id-700 #slider-content-1 > div.cs-content-left.col.cs-content > h2,
-.page-id-700 #slider-content-1 > div.cs-content-left.col.cs-content > p {
+.page-id-700 #slider-content-1 > div.cs-content-left.col.cs-content > p,
+.page-id-948 #slider-content-1 > div.cs-content-left.col.cs-content > h2,
+.page-id-948 #slider-content-1 > div.cs-content-left.col.cs-content > p {
   color: #490d67;
 }
-.page-id-700 #section-1 {
+.page-id-700 #section-1,
+.page-id-948 #section-1 {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-.page-id-700 #content-container .section-boxed {
+.page-id-700 #content-container .section-boxed,
+.page-id-948 #content-container .section-boxed {
   margin: 0px auto;
 }
-.page-id-700 .section-boxed {
+.page-id-700 .section-boxed,
+.page-id-948 .section-boxed {
   max-width: 100% !important;
 }
 
