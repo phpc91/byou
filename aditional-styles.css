@@ -690,7 +690,7 @@ footer#footer {
   max-height: 540px;
 }
 .page-id-11 #content-slider-11 > div,
-.page-id-885 #content-slider-11 > div {
+.page-id-885 #content-slider-885 > div {
   padding-top: 150px;
 }
 /*---FOOTER---*/
@@ -720,31 +720,6 @@ footer#footer {
 
 .footer-send-email:hover {
   color: white;
-}
-
-/*---END---*/
-
-/*---ACERTOS OVERFLOW---*/
-
-/*---PRODUCTS---*/
-
-.page-id-107, .page-id-109, .page-id-81 {
-  max-height: 988px;
-  overflow: hidden;
-}
-
-/*---RECIPES---*/
-
-/* .page-id-152, .page-id-169, .page-id-171, .page-id-167 {
-  max-height: 1070px;
-  overflow: hidden;
-} */
-
-/*---OTHER RECIPES---*/
-
-.page-id-255 {
-  max-height: 920px;
-  overflow: hidden;
 }
 
 /*---END---*/
@@ -836,7 +811,7 @@ footer#footer {
     float: unset;
   }
   .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4,
-  .page-id-870 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
+  .page-id-870 #text1, .page-id-870 #tex2, .page-id-870 #text3, .page-id-870 #text4 {
     text-align: center !important;
     height: 160px !important;
   }
@@ -867,18 +842,22 @@ footer#footer {
     margin-right: 5% !important;
   }
   /*-contact us*/
-  .page-id-13 .wpforms-submit-container {
+  .page-id-13 .wpforms-submit-container,
+  .page-id-907 .wpforms-submit-container {
     width: 85%;
   }
-  .page-id-13 #consumer #banner {
+  .page-id-13 #consumer #banner,
+  .page-id-907 #consumer #banner {
     margin-left: -3.3%;
     margin-top: 90px;
   }
-  .page-id-13 #info {
+  .page-id-13 #info,
+  .page-id-907 #info {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .page-id-13 #wpforms-511 {
+  .page-id-13 #wpforms-511,
+  .page-id-907 #wpforms-511 {
     margin-bottom: 70px;
   }
   /*-recipes*/
@@ -1014,18 +993,22 @@ footer#footer {
     margin-right: 5% !important;
   }
   /*-contact us*/
-  .page-id-13 .wpforms-submit-container {
+  .page-id-13 .wpforms-submit-container,
+  .page-id-907 .wpforms-submit-container {
     width: 85%;
   }
-  .page-id-13 #consumer #banner {
+  .page-id-13 #consumer #banner,
+  .page-id-907 #consumer #banner {
     margin-left: -3.3%;
     margin-top: 90px;
   }
-  .page-id-13 #info {
+  .page-id-13 #info,
+  .page-id-907 #info {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .page-id-13 #wpforms-511 {
+  .page-id-13 #wpforms-511,
+  .page-id-907 #wpforms-511 {
     margin-bottom: 70px;
   }
   /*-recipes*/
@@ -1161,18 +1144,22 @@ footer#footer {
     margin-right: 5% !important;
   }
   /*-contact us*/
-  .page-id-13 .wpforms-submit-container {
+  .page-id-13 .wpforms-submit-container,
+  .page-id-907 .wpforms-submit-container {
     width: 85%;
   }
-  .page-id-13 #consumer #banner {
+  .page-id-13 #consumer #banner,
+  .page-id-907 #consumer #banner {
     margin-left: -3.3%;
     margin-top: 90px;
   }
-  .page-id-13 #info {
+  .page-id-13 #info,
+  .page-id-907 #info {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .page-id-13 #wpforms-511 {
+  .page-id-13 #wpforms-511,
+  .page-id-907 #wpforms-511 {
     margin-bottom: 70px;
   }
   /*-recipes*/
@@ -1261,7 +1248,8 @@ footer#footer {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  .page-id-13 #wpforms-submit-511 {
+  .page-id-13 #wpforms-submit-511,
+  .page-id-907 #wpforms-submit-511 {
     margin-left: 80% !important;
   }
   /*--smoothie, powder, puree*/
@@ -1344,7 +1332,8 @@ footer#footer {
     top: 995px;
   }
   /*-contact us*/
-  .page-id-13 #consumer #banner {
+  .page-id-13 #consumer #banner,
+  .page-id-907 #consumer #banner {
     margin-left: -3.35%;
   }
 }
@@ -1356,7 +1345,8 @@ footer#footer {
     top: 1030px;
   }
   /*-contact us*/
-  .page-id-13 #consumer #banner {
+  .page-id-13 #consumer #banner,
+  .page-id-907 #consumer #banner {
     margin-left: -7.2%;
   }
 }
@@ -1373,7 +1363,8 @@ footer#footer {
     top: 1030px;
   }
   /*-contact us*/
-  .page-id-13 #consumer #banner {
+  .page-id-13 #consumer #banner,
+  .page-id-907 #consumer #banner {
     margin-left: -10%;
   }
 }
@@ -1391,7 +1382,8 @@ footer#footer {
     height: 1250px;
   }
   /*-contact us*/
-  .page-id-13 #consumer #banner {
+  .page-id-13 #consumer #banner,
+  .page-id-907 #consumer #banner {
     margin-left: -30%;
   }
 }
