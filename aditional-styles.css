@@ -727,14 +727,69 @@ footer#footer {
 /*---RESPONSIVIDADE---*/
 
 /*---RESPONSIVIDADE-MOBILE---*/
-
-/*Smartphone S*/
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+@media only screen and (max-device-width: 426px) {
   /*home*/
-  #lsi_widget-7 {
+  .page-id-20, .page-id-865 {
+    overflow-x: hidden;
+  }
+  /*-part1*/
+  .products-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*footer*/
+  #footer-data-cell-1, #footer-data-cell-2, #footer-data-cell-3, #footer-data-cell-4 {
+    text-align: center;
+  }
+  #media_image-5 {
     margin-top: 5% !important;
   }
+  #media_image-5 img {
+    max-width: 100% !important;
+  }
+  #zoom-social-icons-widget-11 ul {
+    text-align: center;
+  }
+  /*outras páginas*/
+  #full-width, .custom-page-content {
+    min-height: unset !important;
+  }
+  /*-products*/
+  #products-content-wrapper,
+  .products-column {
+    flex-direction: column;
+  }
+  .product-cell {
+    flex-direction: column !important;
+  }
+  .product-data {
+    align-items: center !important;
+    text-align: center;
+  }
+  /*-contact-us*/
+  .page-id-13 .wpforms-submit-container,
+  .page-id-907 .wpforms-submit-container {
+    text-align: center;
+  }
+  #wpforms-submit-608, #wpforms-submit-511, #wpforms-submit-909, #wpforms-submit-910 {
+    margin-left: unset !important;
+  }
+  /*-story*/
+  .page-id-8 #part1 #img1 img,
+  .page-id-882 #part1 #img1 img {
+    max-width: 60% !important;
+  }
+  .page-id-8 #part1 #img1,
+  .page-id-882 #part1 #img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*Smartphone S*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
   /*-part1*/
   #part1 {
     padding-bottom: 5%;
@@ -785,51 +840,7 @@ footer#footer {
   #button4 {
     text-align: center;
   }
-  /*footer*/
-  #media_image-5 {
-    margin-top: 5% !important;
-  }
-  #zoom-social-icons-widget-3 {
-    margin-top: auto !important;
-  }
-  #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #custom_html-9, #zoom-social-icons-widget-3 {
-    text-align: center;
-  }
   /*outras páginas*/
-  /*-products*/
-  .page-id-2 .buttons, .description,
-  .page-id-870 .buttons, .description {
-    text-align: center !important;
-  }
-  .page-id-2 .side-text,
-  .page-id-870 .side-text {
-    position: relative;
-    bottom: auto;
-  }
-  .page-id-2 .usda-logo,
-  .page-id-870 .usda-logo {
-    float: unset;
-  }
-  .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4,
-  .page-id-870 #text1, .page-id-870 #tex2, .page-id-870 #text3, .page-id-870 #text4 {
-    text-align: center !important;
-    height: 160px !important;
-  }
-  .page-id-2 #part1 .cols-wrapper .parent,
-  .page-id-870 #part1 .cols-wrapper .parent {
-    height: 1200px;
-  }
-  .page-id-2 .parent,
-  .page-id-870 .parent {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    height: 1270px;
-  }
-  /*--smoothie, powder, puree*/
-  .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
-    height: 140px;
-    min-height: unset;
-  }
   /*-story*/
   #grey-bg {
     top: 1160px !important;
@@ -842,10 +853,6 @@ footer#footer {
     margin-right: 5% !important;
   }
   /*-contact us*/
-  .page-id-13 .wpforms-submit-container,
-  .page-id-907 .wpforms-submit-container {
-    width: 85%;
-  }
   .page-id-13 #consumer #banner,
   .page-id-907 #consumer #banner {
     margin-left: -3.3%;
@@ -859,30 +866,12 @@ footer#footer {
   .page-id-13 #wpforms-511,
   .page-id-907 #wpforms-511 {
     margin-bottom: 70px;
-  }
-  /*-recipes*/
-  .page-id-11 .content-boxed,
-  .page-id-885 .content-boxed {
-    height: 900px;
-  }
-  /*--other recipes*/
-  .page-id-255 #full-width {
-    height: 128px;
-  }
-  /*--classic-bowl, classic-smoothie, extra healthy, fresh bowl*/
-  .page-id-152 #full-with, .page-id-169 #full-width, .page-id-171 #full-width, .page-id-167 #full-width {
-    height: 160px;
-    min-height: unset;
-  }
-  .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
-    max-height: fit-content;
   }
 }
 
 /*Smartphone M*/
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 424px) {
-  /*home*/
   #lsi_widget-7 {
     margin-top: 5% !important;
   }
@@ -936,51 +925,7 @@ footer#footer {
   #button4 {
     text-align: center;
   }
-  /*footer*/
-  #media_image-5 {
-    margin-top: 5% !important;
-  }
-  #zoom-social-icons-widget-3 {
-    margin-top: auto !important;
-  }
-  #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #custom_html-9, #zoom-social-icons-widget-3 {
-    text-align: center;
-  }
   /*outras páginas*/
-  /*-products*/
-  .page-id-2 .buttons, .description,
-  .page-id-870 .buttons, .description {
-    text-align: center !important;
-  }
-  .page-id-2 .side-text,
-  .page-id-870 .side-text {
-    position: relative;
-    bottom: auto;
-  }
-  .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4,
-  .page-id-870 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
-    text-align: center !important;
-    height: 160px !important;
-  }
-  .page-id-2 #part1 .cols-wrapper .parent,
-  .page-id-870 #part1 .cols-wrapper .parent {
-    height: 1200px;
-  }
-  .page-id-2 .parent,
-  .page-id-870 .parent {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    height: 1285px;
-  }
-  .page-id-2 .usda-logo,
-  .page-id-870 .usda-logo {
-    float: unset;
-  }
-  /*--smoothie, powder, puree*/
-  .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
-    height: 165px;
-    min-height: unset;
-  }
   /*-story*/
   #grey-bg {
     top: 1160px !important;
@@ -1010,33 +955,12 @@ footer#footer {
   .page-id-13 #wpforms-511,
   .page-id-907 #wpforms-511 {
     margin-bottom: 70px;
-  }
-  /*-recipes*/
-  .page-id-11 .content-boxed,
-  .page-id-885 .content-boxed {
-    height: 900px;
-  }
-  /*--other recipes*/
-  .page-id-255 #full-width {
-    height: 128px;
-  }
-  /*--classic-bowl, classic-smoothie, extra healthy, fresh bowl*/
-  .page-id-152 #full-with, .page-id-169 #full-width, .page-id-171 #full-width, .page-id-167 #full-width {
-    height: 187px;
-    min-height: unset;
-  }
-  .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
-    max-height: fit-content;
   }
 }
 
 /*Smartphone L*/
 
 @media only screen and (min-device-width: 425px) and (max-device-width: 480px) {
-  /*home*/
-  #lsi_widget-7 {
-    margin-top: 5% !important;
-  }
   /*-part1*/
   #part1 {
     padding-bottom: 5%;
@@ -1087,51 +1011,7 @@ footer#footer {
   #button4 {
     text-align: center;
   }
-  /*footer*/
-  #media_image-5 {
-    margin-top: 5% !important;
-  }
-  #zoom-social-icons-widget-3 {
-    margin-top: auto !important;
-  }
-  #media_image-5, #custom_html-3, #custom_html-5, #custom_html-6, #custom_html-9, #zoom-social-icons-widget-3 {
-    text-align: center;
-  }
   /*outras páginas*/
-  /*-products*/
-  .page-id-2 .buttons, .description,
-  .page-id-870 .buttons, .description {
-    text-align: center !important;
-  }
-  .page-id-2 .side-text,
-  .page-id-870 .side-text {
-    position: relative;
-    bottom: auto;
-  }
-  .page-id-2 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4,
-  .page-id-870 #text1, .page-id-2 #tex2, .page-id-2 #text3, .page-id-2 #text4 {
-    text-align: center !important;
-    height: 160px !important;
-  }
-  .page-id-2 #part1 .cols-wrapper .parent,
-  .page-id-870 #part1 .cols-wrapper .parent {
-    height: 1200px;
-  }
-  .page-id-2 .parent,
-  .page-id-870 .parent {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    height: 1300px;
-  }
-  .page-id-2 .usda-logo,
-  .page-id-870 .usda-logo {
-    float: unset;
-  }
-  /*--smoothie, powder, puree*/
-  .page-id-81 #full-with, .page-id-107 #full-width, .page-id-109 #full-width {
-    height: 190px;
-    min-height: unset;
-  }
   /*-story*/
   #grey-bg {
     top: 1160px !important;
@@ -1161,23 +1041,6 @@ footer#footer {
   .page-id-13 #wpforms-511,
   .page-id-907 #wpforms-511 {
     margin-bottom: 70px;
-  }
-  /*-recipes*/
-  .page-id-11 .content-boxed,
-  .page-id-885 .content-boxed {
-    height: 900px;
-  }
-  /*--other recipes*/
-  .page-id-255 #full-width {
-    height: 128px;
-  }
-  /*--classic-bowl, classic-smoothie, extra healthy, fresh bowl*/
-  .page-id-152 #full-with, .page-id-169 #full-width, .page-id-171 #full-width, .page-id-167 #full-width {
-    height: 214px;
-    min-height: unset;
-  }
-  .page-id-107, .page-id-109, .page-id-81, .page-id-152, .page-id-169, .page-id-171, .page-id-167, .page-id-255 {
-    max-height: fit-content;
   }
 }
 
