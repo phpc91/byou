@@ -90,8 +90,9 @@
 
 /*---MENU---*/
 
-#menu-item-593 .sub-menu {
-  width: 230px;
+#menu-item-593 .sub-menu,
+#menu-item-914 .sub-menu {
+  width: 240px;
 }
 
 .social-icons li {
